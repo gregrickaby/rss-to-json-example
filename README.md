@@ -1,13 +1,13 @@
-# RSS to JSON
+# RSS to JSON Example
 
-Converts an RSS feed to JSON in with React Hooks.
+Converts an RSS feed to JSON with [https://www.npmjs.com/package/rss-parser](rss-parser) via React Hooks.
 
 ```js
 import { useState, useEffect } from "react";
 const Parser = require("rss-parser");
 const parser = new Parser();
 
-const Homepage = () => {
+const App = () => {
   const [data, setData] = useState();
   const [error, setError] = useState(false);
   const [loading, setLoading] = useState(true);
@@ -37,5 +37,5 @@ const Homepage = () => {
   );
 };
 
-export default Homepage;
+export default App;
 ```
