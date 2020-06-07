@@ -6,7 +6,7 @@ const Homepage = () => {
   const [data, setData] = useState();
   const [error, setError] = useState(false);
   const [loading, setLoading] = useState(true);
-  const feed_url = `https://www.reddit.com/.rss`;
+  const feed_url = `https://webdevstudios.com/feed`;
   const CORS_PROXY = `https://cors-anywhere.herokuapp.com/`;
 
   useEffect(() => {
