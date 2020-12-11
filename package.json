@@ -11,6 +11,6 @@
     "next": "latest",
     "react": "17.0.1",
     "react-dom": "17.0.1",
-    "rss-parser": "^3.9.0"
+    "rss-parser": "^3.10.0"
   }
 }
